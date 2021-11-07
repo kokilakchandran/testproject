@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Mad libs</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/stories.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="one" id="full">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="first">
+                            <h3>Madlibs</h3>
+                            <div class="box"></div>
+                            <h3>choose a story</h3>
+                            <div class="box1" >
+                                <button onclick="TestsFunction()" id="myid" value="Mission Statement">Mission Statement</button>
+                            </div>
+                            <br/>
+                            <div class="box1">
+                                <button onclick="LunchFunction()"  id="mylu" value="Lunch Room!">Lunch Room!</a></button>
+                            </div>
+                            <br/> 
+                            <div class="box1">
+                                <button onclick="WeatherFunction()" id="mywe" value="Weather Report">Weather Report</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="two" id="mission">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="second" >
+                            <h3>Madlibs</h3>
+                            <div class="box"></div>
+                            <h3>Provide the following words</h3>
+                                <div  class="words" id="msf"></div>
+                            &nbsp;
+                            <div class="box1">
+                                <button onclick="ReadFunction()">Read Story</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="three" id="lunch">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="second">
+                            <h3>Madlibs</h3>
+                            <div class="box"></div>
+                            <h3>Provide the following words</h3>
+                            <div  class="words" id="lsf"></div>
+                            &nbsp;
+                            <div class="box1">
+                                <button onclick="Read1Function()">Read Story</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div class="four" id="weather">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="second" >
+                            <h3>Madlibs</h3>
+                            <div  class="box"></div>
+                            <h3>Provide the following words</h3>
+                            <div  class="words" id="wsf"></div>
+                            &nbsp;
+                            <div class="box1">
+                                <button onclick="ReadwFunction()">Read Story</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="readnext" id="read">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="secondout" >
+                            <h3>Madlibs</h3>
+                            <div class="box"></div>
+                            <h4 class="h" id="h"></h4>
+                            <div class="boxnew">
+                                <button onclick="AnotherFunction()">Create Another Story</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="readnext" id="nes">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="secondout" >
+                            <h3>Madlibs</h3>
+                            <div class="box"></div>
+                            <h4 id="er"></h4>
+                            <div class="boxnew">
+                            <button onclick="AnotherlunchFunction()">Create Another Story</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="readnext" id="nest">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                         <div class="secondout" >
+                            <h3>Madlibs</h3>
+                            <div class="box"></div>
+                            <h4 id="we"></h4>
+                            <div class="boxnew">
+                                <button onclick="AnotherweatherFunction()">Create Another Story</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

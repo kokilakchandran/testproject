@@ -1,0 +1,221 @@
+.main{
+    margin: auto;
+}
+.first{
+    /* width: 50%; */
+    height: 350px;
+    align-items: center;
+    background-color: #fff;
+    border: solid 1px black;
+    margin-top: 100px;
+}
+.box{
+    border: solid 1px gray;
+}
+.box1{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border:solid 1px black;
+    
+   
+    /* background-color: #e24242;
+     */
+   
+}
+.box1 a{
+    color: black;
+    text-align: center;
+}
+.box1 :hover  {
+    background-color: blue;
+    color: rgb(221, 137, 10);
+}
+
+.words input{
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.second{
+    /* width: 50%; */
+    height: 600px;
+    align-items: center;
+    background-color: #fff;
+    border: solid 1px black;
+}
+.two{
+    display: none;
+}
+.three{
+    display: none;
+}
+.four{
+    display: none;
+}
+.readnext{
+    display: none;
+}
+/* #mad{
+    height: 500px;
+    align-items: center;
+    border: solid 1px black;
+} */
+#full input{
+    width: 50%;
+    margin: 10px;
+    align-items: center;
+}
+/* #mad{
+    display: none;
+} */
+/* #read1{
+    display: none;
+} */
+/* #out1{
+    display: none;
+} */
+
+/* #lunch{
+    align-items: center;
+    background-color: blanchedalmond;
+    color: blue;
+} */
+#mission p{
+    /* align-items: center; */
+    background-color: hsl(0, 48%, 94%);
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    text-align: center;
+    font-family:cursive;
+    /* align-items:flex-end; */
+    /* padding-left: 100px; */
+    /* margin-left: 50px; */
+}
+#h p,h4{
+    /* align-items: center; */
+    background-color: hsl(0, 48%, 94%);
+    width: 100%;
+    height: 300px;
+    /* margin-top: 50px; */
+    text-align: center;
+    font-family:cursive;
+    /* align-items:flex-end; */
+    /* padding-left: 100px; */
+    /* margin-left: 50px; */
+}
+#er p,h4{
+    /* align-items: center; */
+    background-color: hsl(0, 48%, 94%);
+    width: 100%;
+    height: 300px;
+    /* margin-top: 50px; */
+    text-align: center;
+    font-family:cursive;
+    line-height: 2;
+    /* align-items:flex-end; */
+    /* padding-left: 100px; */
+    /* margin-left: 50px; */
+}
+#we p,h4{
+    /* align-items: center; */
+    background-color: hsl(0, 48%, 94%);
+    width: 100%;
+    height: 300px;
+    /* margin-top: 50px; */
+    text-align: center;
+    font-family:cursive;
+    line-height: 2;
+    /* align-items:flex-end; */
+    /* padding-left: 100px; */
+    /* margin-left: 50px; */
+}
+
+.boxnew{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    /* border:solid 1px black; */
+    
+   
+    /* background-color: #e24242;
+     */
+   
+}
+#lunch p{
+    /* align-items: center; */
+    background-color: hsl(0, 48%, 94%);
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    text-align: center;
+    font-family:cursive;
+    /* align-items:flex-end; */
+    /* padding-left: 100px; */
+    /* margin-left: 50px; */
+}
+#weather p{
+    /* align-items: center; */
+    background-color: hsl(0, 48%, 94%);
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    text-align: center;
+    font-family:cursive;
+    /* align-items:flex-end; */
+    /* padding-left: 100px; */
+    /* margin-left: 50px; */
+}
+.secondout{
+    /* width: 50%; */
+    height: 500px;
+    align-items: center;
+    background-color: #fff;
+    border: solid 1px black;
+}
+@media screen and (max-width: 700px) {
+    .secondout{
+        height: 700px;
+        align-items: center;
+        background-color: #fff;
+        border: solid 1px black;
+    }
+    /* #h p,h4{
+        background-color: hsl(0, 48%, 94%);
+        width: 100%;
+        height: 700px;
+        margin-top: 30px;
+        text-align: center;
+        font-family:cursive;
+    } */
+    #er p,h4{
+        background-color: hsl(0, 48%, 94%);
+        width: 100%;
+        height: 600px;
+        /* margin-top: 50px; */
+        text-align: center;
+        font-family:serif;
+        line-height: 2;
+    }
+    /* #we p,h4{
+        background-color: hsl(0, 48%, 94%);
+        width: 100%;
+        height: 700px;
+        margin-top: 50px;
+        text-align: center;
+        font-family:serif;
+        line-height: 2;
+    } */
+
+}
+@media screen and (max-width: 800px) {
+    #we p,h4{
+        background-color: hsl(0, 48%, 94%);
+        width: 100%;
+        height: 700px;
+        /* margin-top: 50px; */
+        text-align: center;
+        font-family:serif;
+        line-height: 2;
+    }
+}
